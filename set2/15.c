@@ -5,7 +5,7 @@ int main(){
            scanf("%d",&n);
            printf("   Give the Final number for the Range :   \n");
            scanf("%d",&n1);
-           printf("\n The Even numbers between %d and %d are ",f1,f2); 
+           printf("\n The Even numbers between %d and %d are ",n,n1); 
            for(i=n; i<=n1; ++i){
                r=((i%2)==0)
                printf("\n  %d",i);
