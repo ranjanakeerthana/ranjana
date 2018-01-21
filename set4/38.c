@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main() {
     int i = 65;
-    int k = 120;
-    printf(" value of i=%d k=%d before swapping", i, k);
+    int j = 120;
+    printf(" value of i=%d k=%d before swapping", i, j);
 
-    i = i ^ k;
-    k = i ^ k;
-    i = i ^ k;
-    printf("value of i=%d k=%d after swapping", i, k);
+    i = i ^ j;
+    j = i ^ j;
+    i = i ^ j;
+    printf("value of i=%d k=%d after swapping", i, j);
 
     return 0;
 }
