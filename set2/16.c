@@ -1,16 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    int l, h, i, flag;
-    printf("Enter two numbers(intervals): ");
-    scanf("%d %d", &l, &h);
-
-    printf("Prime numbers between %d and %d are: ", l, h);
+    int l, h, i, flag=0;
     while (l < h)
     {
-        flag = 0;
-
-        for(i = 2; i <= l/2; ++i)
+          for(i = 2; i <= l/2; ++i)
         {
             if(l% i == 0)
             {
