@@ -10,8 +10,11 @@ void main()
    gets(s);
    for(i = 0; s[i] !='\0'; i++)
    {
+      if(s[i]<=0||s[i]>=9)
+      {
+         
       l = l + 1;
-   }
+   }}
    printf("The number of characters in the string are %d\n", l);
    getch();
 }
