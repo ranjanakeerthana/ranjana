@@ -1,20 +1,19 @@
 #include <stdio.h>
   int main() {
-    int a[10];
+    int n[10];
     int i;
     int g;
     printf("Enter ten values:");
     
     for (i = 0; i < 10; i++) {
-    	scanf("%d", &a[i]);
+    	scanf("%d", &n[i]);
     }
-    g = a[0];
+    g = n[0];
     for (i = 0; i < 10; i++) {
-	if (a[i] > g) {
-	g = a[i];
+	if (n[i] > g) {
+	g = n[i];
     }
     }
-    printf("
-    Greatest of ten numbers is %d", g);
+    printf("Greatest of ten numbers is %d", g);
     return 0;
   }
