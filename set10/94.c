@@ -4,7 +4,7 @@ int main()
 int n,k,i;
 scanf("%d%d",&n,&k);
 int a[10];
-for(i=0;i<n;i++)
+for(i=1;i<n;i++)
 {
 scanf("%d",&a[i]);
 }
