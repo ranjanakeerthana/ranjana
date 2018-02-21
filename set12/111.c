@@ -1,10 +1,10 @@
 #include<stdio.h>
 void main()
-{int num,r,count=0;
-scanf("%d",&num);
-while(num>0)
-{r=num%10;
-num=num/10;
+{int n,k,count=0;
+scanf("%d",&n);
+while(n>0)
+{k=n%10;
+n=n/10;
 count++;
 }
 printf("%d",count);
