@@ -2,7 +2,7 @@
 int main()
 {
     char k[10];
-    int a[10],i,j,sum=0,n;
+    int a[10],i,j,s=0,n;
     gets(k);
     n=strlen(k);
     for(i=0;i<n;i++)
@@ -41,18 +41,18 @@ int main()
         }
         
      }
-     sum=a[n-1];
+     s=a[n-1];
      for(j=n-1;j>0;j--)
      {
          if(a[j]>a[j-1])
          {
-             sum-=a[j-1];
+             s-=a[j-1];
          }
          else
          {
-             sum+=a[j-1];
+             s+=a[j-1];
          }
      }
-     printf("%d",sum);
+     printf("%d",s);
      return 0;
 }
