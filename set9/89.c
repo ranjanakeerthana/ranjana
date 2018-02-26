@@ -3,7 +3,7 @@
 void main()
 {
     char a[20];
-    int i,j,t,b;
+    int i,j,temp,b;
     scanf("%s",a);
     b=strlen(a);
     for(i=0;i<b;i++)
@@ -11,9 +11,9 @@ void main()
         for(j=i;j<b;j++)
         {   if(a[i]>a[j])
             {
-            t=a[i];
+            temp=a[i];
             a[i]=a[j];
-            a[j]=t;
+            a[j]=temp;
             }
         }
     }
