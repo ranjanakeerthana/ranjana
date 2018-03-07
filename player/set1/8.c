@@ -3,14 +3,14 @@
 void main()
 {
 	char name[20];
-	int i;
+	int j;
 	scanf("%[^\n]s",name);
 	name[0]=name[0]-32;
-	for(i=0;name[i]!='\0';i++)
+	for(j=0;name[j]!='\0';j++)
 	{
-		if(name[i]==' ')
-	{i++;
-	name[i]=name[i]-32;}
+		if(name[j]==' ')
+	{j++;
+	name[j]=name[j]-32;}
 	}
 	printf("%s",name);
 		
