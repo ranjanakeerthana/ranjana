@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+int x1,x2,x3,y1,y2,y3;
+printf("enter three points ");
+scanf("%d %d",x1,y1);
+scanf("%d %d",x2,y2);
+scanf("%d %d",x3,y3);
+if((x1==x2)&&(x1==x3)&&(x2==x3))
+{
+printf("lies in same line");
+}
+else
+{
+printf("not lies in same line");
+}
+}
